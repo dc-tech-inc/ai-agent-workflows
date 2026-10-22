@@ -6,7 +6,7 @@ This repository is a reference project without versioned releases. Only the `mai
 
 ## Reporting a vulnerability
 
-Please do not open a public issue for a security problem. Use GitHub's private vulnerability reporting instead: open the **Security** tab of this repository and choose **Report a vulnerability**. You will get an acknowledgement within 5 business days.
+Do not open a public issue for a security problem. Use GitHub's private vulnerability reporting instead: open the **Security** tab of this repository and choose **Report a vulnerability**. You will get an acknowledgement within 5 business days.
 
 ## Scope notes
 
