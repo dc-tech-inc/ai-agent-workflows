@@ -3,7 +3,7 @@
 [![CI](https://github.com/dc-tech-inc/ai-agent-workflows/actions/workflows/ci.yml/badge.svg)](https://github.com/dc-tech-inc/ai-agent-workflows/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Engineering reference by [DC TECH INC](https://dctech.live): how to build an LLM feature so that it can be tested, evaluated and swapped, in strict TypeScript. It contains a versioned prompt library, offline evals that gate CI, a retrieval-augmented support bot, example agent configs for Claude Code, Codex and Gemini CLI, and a client example that consumes the [`mcp-tool-server`](https://github.com/dc-tech-inc/mcp-tool-server) from this account.
+Engineering reference by [DCtech.](https://dctech.live): how to build an LLM feature so that it can be tested, evaluated and swapped, in strict TypeScript. It contains a versioned prompt library, offline evals that gate CI, a retrieval-augmented support bot, example agent configs for Claude Code, Codex and Gemini CLI, and a client example that consumes the [`mcp-tool-server`](https://github.com/dc-tech-inc/mcp-tool-server) from this account.
 
 Everything runs offline by default, with no API key. A real model is optional and has **not** been run against this repository (see [Limitations](#limitations)).
 
