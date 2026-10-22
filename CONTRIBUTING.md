@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for taking a look. This is a small reference repository; focused changes are easiest to review.
+This is a small reference repository; focused changes are easiest to review.
 
 ## Setup
 
