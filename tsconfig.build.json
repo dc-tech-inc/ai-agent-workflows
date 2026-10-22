@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    "allowImportingTsExtensions": false
+  },
+  "include": [
+    "src",
+    "prompts",
+    "support-bot",
+    "evals",
+    "examples"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ai-agent-workflows",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prompt library, offline evals, a RAG support bot and agent configs, in TypeScript.",
+  "license": "MIT",
+  "author": "DC TECH INC",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.17.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "evals": "tsx evals/run.ts",
+    "bot": "tsx support-bot/cli.ts",
+    "mcp-example": "tsx examples/mcp-client/run.ts",
+    "secrets": "secretlint \"**/*\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@secretlint/secretlint-rule-preset-recommend": "13.0.7",
+    "@types/node": "^24",
+    "@vitest/coverage-v8": "5.0.5",
+    "eslint": "10.13.0",
+    "secretlint": "13.0.7",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.0",
+    "vitest": "5.0.5"
+  }
+}

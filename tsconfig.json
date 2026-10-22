@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": [
+      "node"
+    ],
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "src",
+    "prompts",
+    "support-bot",
+    "evals",
+    "agent-configs",
+    "examples",
+    "test",
+    "vitest.config.ts",
+    "eslint.config.js"
+  ]
+}
