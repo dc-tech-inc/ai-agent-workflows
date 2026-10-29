@@ -30,7 +30,7 @@
     "@types/node": "^24",
     "@vitest/coverage-v8": "5.0.5",
     "eslint": "10.13.0",
-    "secretlint": "13.0.7",
+    "secretlint": "13.1.0",
     "tsx": "4.23.15",
     "typescript": "6.0.3",
     "typescript-eslint": "8.72.0",
