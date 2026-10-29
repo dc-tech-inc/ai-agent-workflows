@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
-    "@secretlint/secretlint-rule-preset-recommend": "13.0.7",
+    "@secretlint/secretlint-rule-preset-recommend": "13.1.0",
     "@types/node": "^24",
     "@vitest/coverage-v8": "5.0.5",
     "eslint": "10.13.0",
